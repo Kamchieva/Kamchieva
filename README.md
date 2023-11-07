@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Kamchieva
 - 👀 I’m interested in reading science fiction books and ice skating )
-- 🌱 I’m currently learning in most beautiful city 
+- 🌱 I’m currently learning Git and other programming languages
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me kamchieva.aidana@gmail.com
 
