@@ -1,25 +1,16 @@
+package week3;
+
+import java.util.HashMap;
 
 public class Main {
-    // state of an object
-    int age;
-    String name;
+    public static void main(String[] args) {
 
-    // behavior of an object
-    public void set_value() {
-        age = 20;
-        name = "Robin";
-    }
-    public void get_value() {
-        System.out.println("Age is " + age);
-        System.out.println("Name is " + name);
-    }
+        HashMap<String,Integer> empIds = new HashMap<>();
+        empIds.put("John", 1234);
+        empIds.put("Jerry", 234);
+        empIds.put("Karen", 345);
 
-    // main method
-    public static void main(String [] args) {
-        // creates a new Person object
-        Main p = new Main();
+        System.out.println(empIds);
 
-        // changes state through behavior
-        p.set_value();
     }
 }
