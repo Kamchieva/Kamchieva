@@ -1,16 +1,16 @@
-package week3;
+package Random;
 
-import java.util.HashMap;
+import java.util.Random;
 
 public class Main {
+
     public static void main(String[] args) {
+        Random random = new Random();
 
-        HashMap<String,Integer> empIds = new HashMap<>();
-        empIds.put("John", 1234);
-        empIds.put("Jerry", 234);
-        empIds.put("Karen", 345);
+        //int x = random.nextInt(6) + 1;
+        //double y = random.nextDouble();
+        boolean z = random.nextBoolean();
 
-        System.out.println(empIds);
-
+        System.out.println(z);
     }
 }
